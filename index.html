@@ -8,17 +8,120 @@
     <!-- title icon -->
     <link rel="icon" href="logo.png" type="image/icon type">
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- css file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Bootsrap javascipt -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="" href="#">
+                    <img src="logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- 1st image -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1>Mega Offer MI TV</h1>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem fuga minus veritatis placeat dicta, harum obcaecati neque veniam mollitia cum. Quis iste mollitia dignissimos culpa distinctio necessitatibus illo quibusdam!
+                            </p>
+                            <h1>Price 12000tk</h1>
+                            <button class="but-button">
+                                Buy Now
+                            </button>
+                        </div>
+
+                        <div class="col-md-5">
+                            <img src="banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd image -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1>Mega Offer MI TV</h1>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem fuga minus veritatis placeat dicta, harum obcaecati neque veniam mollitia cum. Quis iste mollitia dignissimos culpa distinctio necessitatibus illo quibusdam!
+                            </p>
+                            <h1>Price 1100tk</h1>
+                            <button class="but-button">
+                                Buy Now
+                            </button></div>
+                        <div class="col-md-5"><img src="banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd image -->
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="col-md-7">
+                            <h1>Mega Offer MI TV</h1>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem fuga minus veritatis placeat dicta, harum obcaecati neque veniam mollitia cum. Quis iste mollitia dignissimos culpa distinctio necessitatibus illo quibusdam!
+                            </p>
+                            <h1>Price 50000tk</h1>
+                            <button class="but-button">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="but-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="but-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 
 </html>
