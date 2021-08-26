@@ -52,4 +52,39 @@
     padding: 10px 30px;
     border: none;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.card-footer {
+    box-shadow: 5px 5px 10px lightgrey;
+    background-color: white;
+    border-top: none;
+}
+
+#Contact {
+    height: 300px;
+}
+
+p {
+    color: gray;
+}
+
+#Contact h6 {
+    color: gray;
+}
+
+.but {
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    color: rgb(250, 245, 245);
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
